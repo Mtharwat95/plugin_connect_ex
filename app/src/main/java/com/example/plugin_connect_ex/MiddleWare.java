@@ -5,5 +5,6 @@ public class MiddleWare {
         System.loadLibrary("cpp_code");
     }
     public native String pluginConnect();
+    public native String listDevices();
 }
 

@@ -7,6 +7,5 @@
 #include <string>
 #include <iostream>
 
-extern "C" std::string get_string();
-extern "C" int Plugin_ListReadersEx(unsigned char ** reder_list,unsigned int * num_bytes);
+extern "C" std::string get_string(void* jenv_obj);
 #endif //PLUGIN_CONNECT_EX_PCSCLIB_H

@@ -32,9 +32,6 @@ android {
         cmake {
             path = file("/Volumes/FlutterWork/plugin_connect_ex/app/src/main/cpp/CMakeLists.txt")
         }
-//        cmake {
-//            path = file("/Volumes/FlutterWork/plugin_connect_ex/app/src/main/plugin_test/CMakeLists.txt")
-//        }
     }
 
     compileOptions {

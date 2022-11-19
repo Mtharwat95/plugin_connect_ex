@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tv = findViewById(R.id.tv);
         MiddleWare middleWare = new MiddleWare();
-        tv.setText(middleWare.pluginConnect());
+        tv.setText(middleWare.listDevices());
     }
 }
